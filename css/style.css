@@ -1,0 +1,588 @@
+/* GOOGLE FONTS */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* FONT FACE uso de tipografia descargada */
+@font-face {
+    font-family: "Boston Traffic";
+    src: url(../assets/fonts/boston_traffic.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flexbox;
+    height: 70px ;
+    width: 100%;
+}
+
+header>div>a>img {
+    display: flex;
+    width: 10rem;
+    height: 5rem;
+    top: 0;
+    bottom: -20px;
+}
+
+nav>ul>li {
+    text-decoration: none;
+    display: inline-block;
+}
+
+li>a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-family: cursive;
+    color: white;
+    position: relative;
+    bottom: 3.5rem;
+    padding: 0 2rem;
+
+}
+
+li>a:hover {
+    color: #f0de5b;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-image: url(../img/wphd.webp);
+    color: #f0de5b;
+}
+
+#parallax {
+    background-image: url(../img/wphd.webp);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #53a8b0;
+    justify-content: center;
+    padding: 0px;
+    height: 3rem;
+    width: 100%;
+}
+
+footer {
+    background-color: #53a8b0;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+footer a {
+    text-decoration: none;
+    padding: 10px 20px;
+    color: white;
+    position: relative;
+    top: 10px;
+    left: -40px;
+}
+
+
+
+.fondoheader {
+    background-color: #53a8b0;
+}
+
+h1 {
+    font-family: cursive;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    text-align: center;
+    color: #f0de5b;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    text-align: center;
+    color: #f0de5b;
+    position: relative;
+    top: 2rem;
+}
+
+.contenedorcds{
+   display: flexbox;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    top: -25rem;
+    left: -6.5rem;
+}
+.contenedorcds img {
+    display: flexbox;
+    width: 24%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 4rem;
+    transition: all ease-in-out 0.5s;
+    padding: 40px;
+    position: relative;
+    left: 130px;
+
+
+}
+
+.contenedorcds img:hover {
+    width: 25%;
+}
+
+.buynow {
+display:flex;
+justify-content: center;
+align-items: center;
+font-size: 2.5rem;
+font-family: cursive;
+position: relative;
+top: -12rem;
+right: -59rem;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
+
+.btnlisten {
+display: flex;
+justify-content: center;
+align-items: center;
+    border: 1px solid #42868c;
+    height: 4rem;
+    border-radius: 1rem;
+    font-size: 2.4rem;
+    text-decoration: none;
+font-family: cursive;
+position: relative;
+top: 3rem;
+}
+.btnlisten:hover {
+    background-color: #42868c;
+    color: white;
+}
+.container2 {
+
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    height: 50rem;
+    width: 100%;
+    position: relative;
+    top: -5rem;
+}
+.container2 img{
+
+    display: flex;
+    width: 100vh;
+    height: 100vh;
+    object-fit: cover;
+    padding: 4rem;
+    margin: 0;
+    position: relative;
+    left:27%;
+    bottom: -10%;
+
+}
+/* aqui comienza la pagina del tour */
+.maintour {
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    border-collapse: collapse;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-color: #4A979E;
+}
+
+.tourdates {
+    border-radius: 0px;
+    font-size: 24px;
+    font-weight: normal;
+    border: none;
+    width: 100%;
+    max-width: 100%;
+    background-color: #42868c;
+    border: transparent;
+    margin-top: 200px;
+    margin-left: 30px;
+    margin-right: 10px;
+    position: relative;
+    bottom: 90px;
+    right: 30px;
+}
+
+.btnbuy {
+    padding: 10px 20px;
+    border-radius: 80px;
+    border: 90px;
+    background-color: white;
+    box-shadow: #00000d;
+    font-size: 10px;
+    transition: all .5s ease;
+
+
+
+}
+
+.btnbuy:hover {
+    letter-spacing: 3px;
+    background-color: gray;
+    color: black;
+    box-shadow: #0037b8 0px 7px 29px 0px;
+}
+
+
+/* aqui comienza la seccion music */
+
+
+.mainmusic {
+    display: block;
+    background-color: #00000d;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.discografia {
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding: 30px;
+    justify-content: center;
+    position: relative;
+    left: 100px;
+
+}
+
+.discografia a img {
+    border-radius: 30px;
+    border: transparent;
+    justify-content: center;
+    width: 270px;
+    height: 100%;
+    object-fit: cover;
+    transition: all ease-in-out 0.5s;
+    padding: 35px;
+    justify-content: center;
+}
+
+.discografia img:hover {
+    width: 25%;
+}
+
+.offernewcd {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding: 30px;
+    justify-content: center;
+    background-color: #42868c;
+    border-radius: 0px;
+
+}
+
+.offernewcd>img {
+    padding: 0px;
+}
+
+
+.embed {
+    width: 800px;
+    position: relative;
+    left: 450px;
+    top: -280px;
+}
+
+.comment {
+    display: block;
+    position: relative;
+    border: 0;
+    width: 500px;
+    height: 125px;
+    left: 800px;
+    top: -400px;
+
+}
+
+
+.mainstore {
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding: 30px;
+    justify-content: center;
+    background-color: #4a9ea7;
+    box-sizing: border-box;
+
+}
+
+.mainstore a img {
+    border-radius: 10px;
+    border: transparent;
+    justify-content: center;
+    width: 270px;
+    height: 100%;
+    object-fit: cover;
+    transition: all ease-in-out 0.5s;
+    padding: 30px;
+    justify-content: center;
+    position: relative;
+    left: 100px;
+}
+
+.mainstore img:hover {
+    width: 25%;
+}
+
+/*Aqui comienza contact us*/
+
+.maincontact {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding: 30px;
+    justify-content: center;
+    background-color: #4a9ea7;
+    box-sizing: border-box;
+
+}
+
+.contactform {
+    width: 400px;
+    height: 500px;
+    justify-content: center;
+    position: relative;
+    right: -500px;
+    bottom: -100px;
+    border: transparent;
+}
+
+.legendc {
+    font-size: 30px;
+    text-decoration: none;
+    border: transparent;
+    position: relative;
+    left: -px;
+    font-family: cursive;
+}
+
+.nombreform {
+    font-size: 20px;
+    text-decoration: none;
+    font-family: cursive;
+    border: transparent;
+    position: relative;
+    left: -1px;
+    position: relative;
+}
+
+.emailform {
+    font-size: 20px;
+    text-decoration: none;
+    font-family: cursive;
+    border: transparent;
+    position: relative;
+    left: -1px;
+    position: relative;
+}
+
+.phoneform {
+    font-size: 20px;
+    text-decoration: none;
+    font-family: cursive;
+    border: transparent;
+    position: relative;
+    left: -1px;
+    position: relative;
+
+    right: -1px;
+}
+
+.inputform {
+    border: none;
+    border-radius: 90px;
+    width: 250px;
+    height: 30px;
+    padding: 10px;
+    position: relative;
+
+    right: -1px;
+
+}
+
+.submitform {
+    border: white;
+    border-radius: 10px;
+    width: 80px;
+    height: 40px;
+    background-color: grey;
+    font-family: cursive;
+    font-size: 20px;
+    position: relative;
+    top: 40px;
+    right: -120px;
+
+}
+.field{
+    border: transparent;
+}
+
+
+/*Tour*/
+.toursection{
+    border: transparent;
+    width: 90;
+    height: 500px;
+    position: relative;
+    bottom: -90px;
+
+}
+.date1{
+    font-family: cursive;
+    font-size: 30px;
+    position: relative;
+    left: 90px;
+    top: 90px;
+    color: #f0de5b;
+}
+
+.date2{
+    font-family: cursive;
+    font-size: 30px;
+    position: relative;
+    left: 90px;
+    top: 1px;
+    color: #f0de5b;  
+    
+}
+.date3{
+    font-family: cursive;
+    font-size: 30px;
+    position: relative;
+    left: 90px;
+    top: 90px;
+    color: #f0de5b;  
+}
+
+.place{
+    font-family: cursive;
+    font-size: 30px;
+    position: relative;
+    left: 170px;
+    top: -36px;
+    color: #f0de5b;  
+}
+.place2{
+    font-family: cursive;
+    font-size: 30px;
+    position: relative;
+    left: 170px;
+    top: -20px;
+    color: #f0de5b;  
+}
+.place3{
+    font-family: cursive;
+    font-size: 30px;
+    position: relative;
+    left: 170px;
+    top: 18px;
+    color: #f0de5b;  
+}
+
+.rsvp{
+    font-family: cursive;
+    font-size: 30px;
+    position: relative;
+    right: -380px;
+    top: -93px;
+    color: #f0de5b; 
+      
+}
+.rsvp2{
+    font-family: cursive;
+    font-size: 30px;
+    position: relative;
+    right: -380px;
+    top: -85px;
+    color: #f0de5b;  
+}
+.rsvp3{
+    font-family: cursive;
+    font-size: 30px;
+    position: relative;
+    right: -380px;
+    top: -65px;
+    color: #f0de5b;    
+}
+
+.tiket1{
+    font-family: cursive;
+    font-size: 30px;
+    position: relative;
+    right: -540px;
+    top: -145px;
+    color: #f0de5b;    
+}
+.tiket2{
+    font-family: cursive;
+    font-size: 30px;
+    position: relative;
+    right: -540px;
+    top: -135px;
+    color: #f0de5b;    
+}
+.tiket3{
+    font-family: cursive;
+    font-size: 30px;
+    position: relative;
+    right: -540px;
+    top: -119px;
+    color: #f0de5b;   
+}
+
+display: flex;
+gap: 15px;
+}
+
+.social-icons a {
+font-size: 30px;  
+color: #000;  
+transition: color 0.3s ease; 
+}
+
+.social-icons a:hover {
+color: yellow;  
+}
+
+.followus {
+    color: black;
+    position: relative;
+    top: -15px;
+    left: 97px;
+}
+
+/* Estilos generales */
+body {
+    font-size: 16px;
+}

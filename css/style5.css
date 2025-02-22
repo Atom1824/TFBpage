@@ -1,0 +1,700 @@
+/*general*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins, sans-serif;
+}
+
+/*Nav bar*/
+.navegation {
+    position: fixed;
+    height: 70px;
+    width: 100vw;
+    right: 0;
+    left: 0;
+    background-color: #3b7780;
+    box-sizing: border-box;
+    -webkit-box-shadow: 0px 17px 59px 11px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 17px 59px 11px rgba(0, 0, 0, 0.75);
+    z-index: 100;
+}
+
+.navegation .logo {
+    float: left;
+    width: 25vh;
+    height: 10vh;
+}
+
+ul {
+    position: fixed;
+    height: 15px;
+    left: 15%;
+    z-index: 500;
+}
+
+li {
+    display: inline-block;
+    margin-left: 5px;
+    width: 20px;
+    height: 10px;
+    padding: 80px;
+    padding-top: 25px;
+    font-weight: bold;
+    list-style: none;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+a {
+
+    color: #f2e15c;
+    font-size: 15px;
+    font-family: cursive;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+a:hover {
+    color: #fff;
+    text-decoration: underline white;
+}
+
+/*aqui termina la barra de nav*/
+
+/*h1*/
+
+.titulo {
+    position: relative;
+    top: 100px;
+    text-align: center;
+    font-size: 30px;
+    color: #f0df5d;
+    font-family: cursive;
+}
+
+/*outnow*/
+.outnow {
+    position: relative;
+    top: 120px;
+    text-align: center;
+    font-size: 20px;
+    color: #f0df5d;
+    font-family: cursive;
+
+}
+
+/*btn*/
+
+.container {
+    position: flex;
+    top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.btnlisten {
+    position: relative;
+    top: 130px;
+    font-size: 15px;
+    color: black;
+    background-color: #f0df5d;
+    border-radius: 10px 30px;
+    font-family: cursive;
+    padding: 10px 20px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.btnlisten:hover {
+    background-color:
+        #232c2e;
+    color: black;
+    text-decoration: none;
+}
+
+.container2 {
+    position: flex;
+    top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.container2 img {
+    display: flex;
+    width: 70vh;
+    height: 55vh;
+    position: relative;
+    top: 160px
+}
+
+.contenedorcds {
+    position: relative;
+    top: 390px;
+    right: -3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow:1;
+}
+
+.buynow {
+    display: flex;
+    font-size: 25px;
+    color: #f0df5d;
+    font-family: cursive;
+    position: relative;
+    bottom: 10vw;
+    left: 35%;
+
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 430px;
+    position: relative;
+    margin-top: -40vh;
+    box-sizing: border-box;
+}
+
+.contenedorcds img {
+    width: 40vh;
+    padding: 15px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .9;
+    transition: .5s ease;
+    display: flexbox;
+    position: relative;
+    right: 9%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.contenedorcds img:hover {
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+/*backgound*/
+.mivideo {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    opacity: 0.9;
+    object-fit: cover;
+    box-sizing: border-box;
+    z-index: 0;
+}
+
+/*footer*/
+.footer {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    box-shadow:  0px 17px 59px 11px rgba(0, 0, 0, 0.75);
+    background-color: #3b7780;
+    text-align: center;
+    color: #f0df5d;
+    font-family: cursive;
+    font-size: 10px;
+    padding-top: 15px;
+    margin-bottom: 0;
+    box-sizing: border-box;
+    z-index: 100;
+}
+
+.footer a {
+    color: #f0df5d;
+    text-decoration: none;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: -40%;
+    padding: 10px;
+    z-index: 100;
+    transition: all 0.5s;
+}
+
+.social-icons i {
+    font-size: 20px;
+    margin: 10px;
+    color: #f0df5d;
+    transition: all 0.5s;
+    position: relative;
+    top: 1px;
+}
+
+i:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+.followus {
+    display: flex;
+    position: relative;
+    bottom: 2vh;
+    right: -48%;
+    font-size: 15px;
+    color: #f0df5d;
+    font-family: cursive;
+}
+
+/*Tour*/
+
+.bodytour {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.maintour {
+    display: block;
+    background-color: #3b7780;
+    object-fit: cover;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 120vh;
+}
+
+.toursection {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas:
+        " date1 place rsvp1 tiket1"
+        " date2 place2 rsvp2 tiket2"
+        " date3 place3 rsvp3 tiket3";
+    width: 100%;
+    height: 20vw;
+    position: relative;
+    top: 70vh;
+
+}
+
+.date1 {
+    grid-area: date1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: #f0df5d;
+    font-family: cursive;
+    padding: 10px;
+    margin: 10px;
+    background-color: #3b7780;
+    transition: all 0.5s;
+}
+
+.date2 {
+    grid-area: date2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: #f0df5d;
+    font-family: cursive;
+    padding: 10px;
+    margin: 10px;
+    background-color: #3b7780;
+    transition: all 0.5s;
+}
+
+.date3 {
+    grid-area: date3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: #f0df5d;
+    font-family: cursive;
+    padding: 10px;
+    margin: 10px;
+    background-color: #3b7780;
+}
+
+.place {
+    grid-area: place;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: #f0df5d;
+    font-family: cursive;
+    padding: 10px;
+    margin: 10px;
+    background-color: #3b7780;
+}
+
+.place2 {
+    grid-area: place2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: #f0df5d;
+    font-family: cursive;
+    padding: 10px;
+    margin: 10px;
+    background-color: #3b7780;
+}
+
+.place3 {
+    grid-area: place3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: #f0df5d;
+    font-family: cursive;
+    padding: 10px;
+    margin: 10px;
+    background-color: #3b7780;
+}
+
+.rsvp1 {
+    grid-area: rsvp1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: #f0df5d;
+    font-family: cursive;
+    padding: 10px;
+    margin: 10px;
+    background-color: #3b7780;
+}
+
+.rsvp1:hover {
+    color: blue;
+    text-decoration: none;
+}
+
+.rsvp2 {
+    grid-area: rsvp2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: #f0df5d;
+    font-family: cursive;
+    padding: 10px;
+    margin: 10px;
+    background-color: #3b7780;
+}
+
+.rsvp2:hover {
+    color: blue;
+    text-decoration: none;
+}
+
+.rsvp3 {
+    grid-area: rsvp3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: #f0df5d;
+    font-family: cursive;
+    padding: 10px;
+    margin: 10px;
+    background-color: #3b7780;
+}
+
+.rsvp3:hover {
+    color: blue;
+    text-decoration: none;
+}
+
+.tiket1 {
+    grid-area: tiket1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: #f0df5d;
+    font-family: cursive;
+    padding: 10px;
+    margin: 10px;
+    background-color: #3b7780;
+}
+
+.tiket1:hover {
+    color: blue;
+    text-decoration: none;
+}
+
+.tiket2 {
+    grid-area: tiket2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: #f0df5d;
+    font-family: cursive;
+    padding: 10px;
+    margin: 10px;
+    background-color: #3b7780;
+}
+
+.tiket2:hover {
+    color: blue;
+    text-decoration: none;
+}
+
+.tiket3 {
+    grid-area: tiket3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: #f0df5d;
+    font-family: cursive;
+    padding: 10px;
+    margin: 10px;
+    background-color: #3b7780;
+}
+
+.tiket3:hover {
+    color: blue;
+    text-decoration: none;
+}
+
+/*store*/
+.mainstore {
+    display: block;
+    background-color: #3b7780;
+    object-fit: cover;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 120vh;
+}
+
+.storesection {
+    display: grid;
+    background-color: #3b7780;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas:
+        " item1 item2 item3 item4"
+        " item5 item6 item7 item8";
+    align-items: center;
+    justify-items: center;
+    gap: 20px;
+    width: 100%;
+    height: 175vh;
+    position: relative;
+    top: 55vh;
+}
+
+
+.item1 {
+    grid-area: item1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f0df5d;
+    font-family: cursive;
+    padding: 10px;
+    margin: 10px;
+    background-color: #3b7780;
+}
+
+.item2 {
+    grid-area: item2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f0df5d;
+    font-family: cursive;
+    padding: 10px;
+    margin: 10px;
+    background-color: #3b7780;
+}
+
+.item3 {
+    grid-area: item3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f0df5d;
+    font-family: cursive;
+    padding: 10px;
+    margin: 10px;
+    background-color: #3b7780;
+}
+
+.item4 {
+    grid-area: item4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f0df5d;
+    font-family: cursive;
+    padding: 10px;
+    margin: 10px;
+    background-color: #3b7780;
+}
+
+.item5 {
+    grid-area: item5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f0df5d;
+    font-family: cursive;
+    padding: 10px;
+    margin: 10px;
+    background-color: #3b7780;
+}
+
+.item6 {
+    grid-area: item6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f0df5d;
+    font-family: cursive;
+    padding: 10px;
+    margin: 10px;
+    background-color: #3b7780;
+}
+
+.item7 {
+    grid-area: item7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f0df5d;
+    font-family: cursive;
+    padding: 10px;
+    margin: 10px;
+    background-color: #3b7780;
+}
+
+.item8 {
+    grid-area: item8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f0df5d;
+    font-family: cursive;
+    padding: 10px;
+    margin: 10px;
+    background-color: #3b7780;
+}
+
+.card-title {
+    color: #3b7780;
+    font-family: cursive;
+    font-size: 14px;
+}
+
+.card-img-top {
+    width: 100% height: 100%
+}
+
+.offernewcd{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #3b7780;
+    box-shadow: 0px 17px 59px 11px rgba(0, 0, 0, 0.75);
+
+}
+.offernewcd img{
+display: block;
+width: 80vh;
+padding: 30px;
+object-fit: cover;
+position: relative;
+top: 4vh;
+
+}
+
+.comment{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ width: 100%;
+ height: 100vh;
+}
+
+.comment p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    color: #f0df5d;
+    font-family: cursive;
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+    top: 25vh;
+    width: 50%;
+    height: 50%;
+    box-sizing: border-box;
+
+}
+
+.musiccontainer{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas:
+        "card1 card2 card3 card4"
+        "card5 card6 card7 card8";
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    border: solid black;
+    background-color: black;
+}
+
+.card1 {
+    grid-area: card1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f0df5d;
+    font-family: cursive;
+    object-fit: cover;
+    width: 100%; /* Ensure the container has a defined width */
+    height: 100%; /* Ensure the container has a defined height */
+    overflow: hidden; /* Hide any overflowing content */
+}
+
+.card2{
+    grid-area: card2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f0df5d;
+    font-family: cursive;}
