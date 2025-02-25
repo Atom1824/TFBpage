@@ -136,12 +136,40 @@ a:hover {
 
 .contenedorcds {
     position: relative;
-    top: 390px;
+    top: 700px;
     right: -3%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-grow:1;
+}
+
+.discs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f0df5d;
+    font-family: cursive;
+    position: relative;
+    bottom: 10vw;
+    left: 0%;
+
+}
+.discs a img {
+    display: flex;
+    width: 28vh;
+    padding: 10px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .9;
+    transition: .5s ease;
+    display: flexbox;
+    position: relative;
+    right: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    box-sizing: border-box;
 }
 
 .buynow {
@@ -150,7 +178,7 @@ a:hover {
     color: #f0df5d;
     font-family: cursive;
     position: relative;
-    bottom: 10vw;
+    bottom: 25vw;
     left: 35%;
 
 }
@@ -613,7 +641,7 @@ i:hover {
 }
 
 .card-img-top {
-    width: 100% height: 100%
+    width: 100%; height: 100%;
 }
 
 .offernewcd{
